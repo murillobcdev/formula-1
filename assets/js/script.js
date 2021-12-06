@@ -75,6 +75,7 @@ function getAge(dob) {
         if (dobDay <= day) {
             console.log(`Já fez aniversário: ${rYear}`)
         } else {
+            rYear--;
             console.log('Ainda não chegou o aniversário.')
         }
     } return rYear;
