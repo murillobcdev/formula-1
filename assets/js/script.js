@@ -2,7 +2,7 @@ const $ = (e) => document.querySelector(e);
 const $s = (e) => document.querySelectorAll(e);
 
 function findpilots() {
-    fetch(`http://ergast.com/api/f1/2021/drivers.json`)
+    fetch(`assets/js/json/drivers.json`)
         .then(response => response.json())
         .then(json => {
 
