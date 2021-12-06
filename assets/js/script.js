@@ -14,7 +14,7 @@ function findpilots() {
 
             for (let i in drivers) {
                 $(".row").innerHTML += `
-                <div class="col-4 d-flex flex-column">
+                <div class="col-lg-4 d-flex flex-column">
                     <div class="card">
                         <div class="image">
                             <img class="img-fluid" src='./assets/images/${aDrivers[i].driverId}.png'>
@@ -54,7 +54,6 @@ function findpilots() {
 }
 
 function getAge(dob) {
-
     let date = new Date;
 
     let dobYear = dob.split('-')[0];
