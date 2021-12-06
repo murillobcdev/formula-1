@@ -81,6 +81,4 @@ function getAge(dob) {
 
 }
 
-// setTimeout(findpilots, 1500);
-
-findpilots();
+setTimeout(findpilots, 1500);
